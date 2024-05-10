@@ -48,20 +48,40 @@ p.texto-destaque {
 
 .apresentacao_links {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao_redes {
+    font-size: 24px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .apresentacao_links_buttom {
-    background-color: #d68571;
+    /* background-color: #d68571; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     color: black;
     padding: 21.5px 0;
-    width: 280px;
-    border-radius: 16px;
+    width: 378px;
+    border: 2px solid #d68571;
+    border-radius: 8px;
     text-align: center;
     font-size: 24px;
+    line-height: 36px;
     text-decoration: none;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
+}
+
+.apresentacao_links_buttom:hover {
+    background-color: #d68571;
+    color: #f6f6f6;
 }
 
 .creditos-footer {
